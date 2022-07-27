@@ -9,7 +9,10 @@
     "check-types": "tsc --noEmit",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "publish": "out"
   },
   "dependencies": {
     "next": "12.2.3",
