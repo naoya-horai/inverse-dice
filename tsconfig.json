@@ -4,7 +4,7 @@
     "target": "es5",
     "module": "esnext",
     "jsx": "preserve",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,8 +16,7 @@
     "isolatedModules": true,
     "paths": {
         "~/*": ["./*"]
-    },
-    "Strict-mode": false
+    }
 
   },
   "exclude": ["node_modules", "deployments", ".next", "out"],
