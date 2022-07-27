@@ -16,7 +16,8 @@
     "isolatedModules": true,
     "paths": {
         "~/*": ["./*"]
-    }
+    },
+    "Strict-mode": false
 
   },
   "exclude": ["node_modules", "deployments", ".next", "out"],
